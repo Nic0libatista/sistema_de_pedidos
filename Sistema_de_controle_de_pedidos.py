@@ -9,7 +9,7 @@ while True:
     if pedido.lower() == "fim":
         break
 
-    quantidade = float(input("Quantidade: "))
+    quantidade = int(input("Quantidade: "))
     cor = input("Cor: ")
 
     pedidos.append({
